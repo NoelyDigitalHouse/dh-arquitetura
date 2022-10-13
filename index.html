@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>dh-arquitetura</title>
+    <link rel="icon" href="pix/logo.svg" type="svg+xml">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/css.css">
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* color: #7D7987; */
+}
+
+destaque {
+    color: #6C63FF;
+    font-weight: 700;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+}
+
+header {
+    width: clamp( 100px, 90%, 700px );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+} header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    padding: 0 24px;
+}
+
+home {
+    width: clamp( 100px, 90%, 700px );
+    text-align: center;
+} home p {
+    padding: 24px;
+}
+
+footer {
+    width: clamp( 100px, 90%, 700px );
+    height: 60px;
+    margin-top: auto;
+    padding: 8px 32px 0;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 8px;
+    color: #6C63FF;
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img src="assets/img/banner.svg" alt="">
+        <h1>Ambientes <destaque>únicos</destaque> para você!</h1>
+    </header>
+    
+    <home>
+        <p>
+            Nós criamos ambientes <strong>exclusivos</strong> e <strong>únicos</strong>, com muito bom gosto e 
+            profissionalismo, investimos tempo e <destaque>dedicação no seu projeto</destaque>. 
+        </p>
+        <p>
+            Tenha <destaque>ambientes limpos</destaque> e bem decorados, transmitindo <strong>elegância</strong>  
+            e <strong>finesse</strong> para todo aquele que estiver ali.
+        </p>
+    </home>
+    
+    <footer>
+        <hr>
+        <ul>
+            <a href="http://instagram.com">Instagram</a>
+            <a href="http://instagram.com">Fale conosco</a>
+        </ul>
+    </footer>
+    
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
